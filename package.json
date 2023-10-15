@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/lancer147741/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/lancer147741/frontend-project-44/actions)",
   "scripts": {
-    "start": "brain-games.js" 
+    "start": "brain-games.js"
   },
   "type": "module",
   "author": "",
   "license": "ISC",
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
