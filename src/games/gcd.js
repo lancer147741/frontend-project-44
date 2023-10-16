@@ -1,5 +1,5 @@
 import startGame from '../index.js';
-import getRandomNumbers from '../getRandomNumber.js';
+import getRandomNumbers from '../randomNumbers.js';
 
 const calculateGCD = (num1, num2) => {
     if (num2 === 0) return num1;

@@ -1,4 +1,4 @@
-import startGames from '../index.js';
+import startGame from '../index.js';
 import getRandomNumbers from '../getRandomInRange.js';
 
 const isPrime = (number) => {
@@ -24,7 +24,7 @@ const playPrimeGame = () => {
         return [question, answer];
     };
 
-    return startGames(rulesOfGame, generateRound);
+    return startGame(rulesOfGame, generateRound);
 };
 
 export default playPrimeGame;
