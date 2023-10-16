@@ -1,18 +1,13 @@
 import startGame from '../index.js';
-import getRandomNumbers from '../getRandomInRange.js';
+import getRandomNumbers from '../randomNumbers.js';
 
 const isPrime = (number) => {
-    if (number < 2) return false;
-    if (number === 2) return true;
-    if (number % 2 === 0) return false;
-
-    const limit = Math.sqrt(number);
-    for (let i = 3; i <= limit; i += 2) {
+    for (let i = 2; i < number; i += 1) {
         if (number % i === 0) {
             return false;
         }
     }
-    return true;
+    return number !== 1;
 };
 
 const playPrimeGame = () => {
@@ -24,7 +19,7 @@ const playPrimeGame = () => {
         return [question, answer];
     };
 
-    return startGame(rulesOfGame, generateRound);
+    startGame(rulesOfGame, generateRound);
 };
 
 export default playPrimeGame;
