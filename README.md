@@ -54,3 +54,13 @@ $ brain-(game name)
 ---
 
 Приятной игры! Если возникнут вопросы, обратитесь к документации или свяжитесь с автором проекта.
+### Asciinema brain-even:
+[![asciicast](https://asciinema.org/a/PepkTTkjwZMUb4DiE3HCZdcOM.svg)](https://asciinema.org/a/PepkTTkjwZMUb4DiE3HCZdcOM)
+### Asciinema brain-calc:
+[![asciicast](https://asciinema.org/a/TqUNjktYA2t0vRDSJRjhobFO8.svg)](https://asciinema.org/a/TqUNjktYA2t0vRDSJRjhobFO8)
+### Asciinema brain-gcd:
+[![asciicast](https://asciinema.org/a/P1axCyIrefJcGhMyNubg57Veb.svg)](https://asciinema.org/a/P1axCyIrefJcGhMyNubg57Veb)
+### Asciinema brain-progression:
+[![asciicast](https://asciinema.org/a/K74fmPMUS4r3AXmDqcIjapiuO.svg)](https://asciinema.org/a/K74fmPMUS4r3AXmDqcIjapiuO)
+### Asciinema brain-prime:
+[![asciicast](https://asciinema.org/a/Tce3dWzTynCcHAjOenSc9ssPN.svg)](https://asciinema.org/a/Tce3dWzTynCcHAjOenSc9ssPN) 
